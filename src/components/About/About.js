@@ -1,9 +1,7 @@
-
-
 export default function About() {
   return (
     <div>
-      <h1>Hello I am Michael Proscia</h1>
+      <h1 className="text-success">Hello I am Michael Proscia</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nam
         reiciendis cum, ipsum porro nesciunt pariatur maxime aliquam totam,
