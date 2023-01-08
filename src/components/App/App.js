@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <main className='vh-100 bg-dark'>
       <Router>
         <NavBar />
         <Routes>
@@ -18,7 +18,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
-    </>
+    </main>
   );
 }
 

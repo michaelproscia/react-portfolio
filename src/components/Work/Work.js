@@ -1,6 +1,6 @@
 export default function Work() {
   return (
-    <div>
+    <div className="text-success">
       <h2>Work Experience</h2>
       <h3>JOB1</h3>
       <h4>PLACE</h4>

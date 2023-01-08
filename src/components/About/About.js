@@ -1,8 +1,8 @@
 export default function About() {
   return (
-    <div>
-      <h1 className="text-success">Hello I am Michael Proscia</h1>
-      <p>
+    <div className="w-25 m-auto">
+      <h1 className="text-primary">Hello I am Michael Proscia</h1>
+      <p className="text-success">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nam
         reiciendis cum, ipsum porro nesciunt pariatur maxime aliquam totam,
         ipsam ratione maiores ut, laborum consequuntur laudantium architecto
