@@ -1,0 +1,13 @@
+* {
+    background-color: #001D3D;
+}
+
+main {
+    height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

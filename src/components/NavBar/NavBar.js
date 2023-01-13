@@ -1,21 +1,22 @@
 import { NavLink } from "react-router-dom";
+import "./NavBar.css";
 
 export default function NavBar() {
   return (
     <nav className="nav justify-content-end gap-3 me-5">
-      <NavLink className="text-decoration-none nav-link active" to="/">
+      <NavLink className="nav-link" to="/">
         About
       </NavLink>
-      <NavLink className="text-decoration-none nav-link" to="projects">
+      <NavLink className="nav-link" to="projects">
         Projects
       </NavLink>
-      <NavLink className="text-decoration-none nav-link" to="work">
+      <NavLink className="nav-link" to="work">
         Work
       </NavLink>
-      <NavLink className="text-decoration-none nav-link" to="contact">
+      <NavLink className="nav-link" to="contact">
         Contact
       </NavLink>
-      <a className="text-decoration-none nav-link" href="#">
+      <a className="nav-link" href="#">
         Resume
       </a>
     </nav>
